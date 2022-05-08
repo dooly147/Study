@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><!-- 문서 정보 -->
+    <meta charset="UTF-8">
+    <title>SemiProjectV1</title>
+    <link href="{{ url_for('static', path='/css/style.css') }}" rel="stylesheet">
+    <link rel="icon" href="data:,"> <!-- favicon.ico 오류 제거 -->
+</head>
+<body><!-- 문서 본문 -->
+    <div id="wrap">
+    <header>
+        <h1>SemiProjectV1</h1> <!-- 타이틀 -->
+        <nav>
+            <ul class="nav">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/join">회원가입</a></li>
+
+                {% if not request.session %}
+                    <li><a href="/login">로그인</a></li>
+                {% endif %}
+
+                {% if request.session %}
+                    <li><a href="/logout">로그아웃</a></li>
+                {% endif %}
+
+                <li><a href="/list">게시판</a></li>
+                <li><a href="/myinfo">회원정보</a></li>
+            </ul> <!-- 메뉴 구성요소 -->
+        </nav> <!-- 상단메뉴 -->
+        <hr> <!-- 구분선 -->
+    </header>
+    <div id="main"></div>
+    <footer>
+        <hr> <!-- 구분선 -->
+        <p>copyright (c) 2021. siestageek. All Rights Reserved.
+             Powered by FastAPI.</p> <!-- 저작권 표시 -->
+    </footer>
+    </div><!-- 전체영역 -->
+</body>
+</html>

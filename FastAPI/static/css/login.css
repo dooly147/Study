@@ -1,0 +1,6 @@
+/* 로그인폼에 대한 스타일시트 */
+#login { width:300px; margin: 150px auto; }
+#login div { margin-bottom: 10px }
+#login label { display: inline-block; width: 110px;
+              font-weight: bold; text-align: right }
+button:first-child { margin-left: 115px }

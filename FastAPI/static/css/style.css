@@ -1,0 +1,20 @@
+/* 전체영역container에 적용하는 스타일  */
+#wrap { width: 950px; margin: 0 auto }
+
+/* main에 적용하는 스타일 */
+#main { min-height: 500px }
+
+/* header에 적용하는 스타일 */
+nav ul { list-style-type: none; padding-bottom: 15px }
+nav ul li { float: left; margin-left: 100px }
+hr { clear: both; background: black ; height:2px; border: 0 }
+
+/* footer에 적용하는 스타일 */
+footer p { text-align: center }
+
+/* 링크에 대한 스타일 */
+a { font-weight: bold }
+a:link { text-decoration: none; color: black }
+a:visited { text-decoration: none; color: black }
+a:hover { text-decoration: underline; color: black }
+a:active { text-decoration: underline; color: red }

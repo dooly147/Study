@@ -1,0 +1,15 @@
+day,temp,outlook,humidity,windy,playGolf
+5,hot,sunny,high,false,no
+6,hot,sunny,high,true,no
+7,hot,overcast,high,false,yes
+9,cool,rain,normal,false,yes
+10,cool,overcast,normal,true,yes
+12,mild,sunny,high,false,no
+14,cool,sunny,normal,false,yes
+15,mild,rain,normal,false,yes
+20,mild,sunny,normal,true,yes
+21,mild,overcast,high,true,yes
+22,hot,overcast,normal,false,yes
+23,mild,rain,high,true,no
+26,cool,rain,normal,true,no
+30,mild,rain,high,false,yes

@@ -1,0 +1,6 @@
+/* 회원가입폼에 대한 스타일시트 */
+#join { width:300px; margin: 0 auto }
+#join div { margin-bottom: 10px }
+#join label { display: inline-block; width: 110px;
+              font-weight: bold; text-align: right }
+button:first-child { margin-left: 115px }
